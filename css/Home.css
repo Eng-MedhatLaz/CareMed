@@ -1,0 +1,570 @@
+.top-nav {
+    background-color: #283290;
+    height: 53px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #ffff;
+    text-align: right;
+    margin-left: 37px;
+}
+
+.right {
+    margin-top: 15px;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.left a {
+    text-decoration: none;
+    color: #ffff;
+    text-align: right;
+    margin-left: 18px;
+}
+
+.left {
+    background-color: red;
+    height: 53px;
+    width: 41%;
+    padding-top: 10px;
+    margin-left: 58%;
+}
+
+
+.navbar {
+    position: fixed;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-item a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+    color: #20D24A;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.background {
+    background-image: url(../images/home_background_1.jpg);
+    width: 100%;
+    height: 100vh;
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: solid 2px #20D24A;
+}
+
+.navbar-brand img {
+    position: absolute;
+    top: -53px;
+    left: 83px;
+}
+
+.H-header {
+    color: #272727;
+    font-size: 71px;
+    margin-top: 8%;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    background-color: #283290;
+    padding: 10px 22px;
+    margin: 30px auto;
+    margin-left: 30px;
+    border-bottom: solid 4px #20D24A;
+}
+
+.button a:hover {
+    background-color: #20D24A;
+    border-bottom: solid 4px #283290;
+}
+
+
+.card {
+    background-color: #283290;
+    border-bottom: solid 4px #20D24A;
+}
+
+.time-work {
+    margin-top: -52px;
+    margin-bottom: 30px;
+}
+
+.clock,
+.h-card {
+    color: #ffff;
+}
+
+.clock {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.h-card {
+    font-size: 30px;
+    margin-left: 19px;
+}
+
+.product {
+    margin-left: 22px;
+}
+
+.product .p-car,
+.sall {
+    display: inline-block;
+    color: #ffff;
+}
+
+.sall {
+    margin-left: 23%;
+}
+
+.hr {
+    background-color: #20D24A;
+    width: 100px;
+    height: 4px;
+    margin-top: -16px;
+}
+
+.Our_team {
+    background-image: url(../images/departments.jpg);
+    width: 100%;
+    /* height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 50%;
+}
+
+.line {
+    background-color: #20D24A;
+    width: 79px;
+    height: 3px;
+    margin-top: 25px;
+}
+
+.H2-Product {
+    color: #ffff;
+}
+
+
+.cards {
+    border: none;
+    width: 300px;
+    perspective: 1000px;
+    cursor: pointer;
+    padding-left: 35px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.front-face {
+    background-color: #ffff;
+    backface-visibility: hidden;
+    border-bottom: solid 4px #20D24A;
+    height: 313px;
+}
+
+.front-face img {
+    width: 100%;
+}
+
+.back-face {
+    backface-visibility: hidden;
+    background-color: #283290;
+    color: #ffff;
+    position: absolute;
+    width: 100%;
+    height: 310px;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: rotateY(180deg);
+}
+
+.cards:hover .card-inner {
+    transform: rotateY(-180deg);
+}
+
+.h2card {
+    font-size: 20px;
+}
+
+.h2card,
+.card-text {
+    text-align: center;
+}
+
+.p-back-body {
+    color: #ffff;
+}
+
+.button-back-body a {
+    text-decoration: none;
+    position: absolute;
+    width: 204px;
+    right: 0;
+    top: 85%;
+    left: 0;
+    color: black;
+    background-color: white;
+    padding: 10px 22px;
+    margin-left: 30px;
+    border-bottom: solid 4px #20D24A;
+}
+
+.button-back-body {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.H2-featured {
+    color: black;
+    margin-bottom: 6%;
+}
+
+.icon-featured {
+    color: #20D24A;
+    font-size: 30px;
+}
+
+.line-featured {
+    background-color: #20D24A;
+    width: 79px;
+    height: 3px;
+    margin-top: 25px;
+}
+
+.card-featured {
+    background-color: #F5F7FA;
+}
+
+.card-featureds {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-featured {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icon-featured img {
+    width: 30px;
+    height: 100%;
+}
+
+.line-featured {
+    margin: auto;
+}
+
+.h1-featured,
+.p-featured {
+    text-align: center;
+}
+
+.h1-featured {
+    font-size: 20px;
+}
+
+.featureds {
+    margin-top: 50px;
+}
+
+.card-featureds {
+    background-color: #F5F7FA;
+    padding: 30px;
+    border-bottom: solid 4px #F5F7FA;
+}
+
+.card-featureds:hover {
+    background-color: #283290;
+    color: #ffff;
+    border-bottom: solid 4px #20D24A;
+}
+
+.Need {
+    background-image: url(../images/cta.jpg);
+    width: 100%;
+    /* height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 50%;
+}
+
+.need-content {
+    text-align: center;
+    color: #ffff;
+}
+
+.need-content {
+    padding: 75px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #060B3A;
+}
+
+.img-footer {
+    width: 90%;
+    height: 155px;
+}
+
+.p-footer {
+    color: #828491;
+}
+
+.span-footer {
+    color: #828491;
+}
+
+.icons {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.icons li a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.span-icon {
+    font-weight: 30px;
+    padding: 13px;
+    background: #20D24A;
+}
+
+.h1-footer {
+    color: #ffff;
+    font-size: 20px;
+    /* line-height: 178px; */
+    margin-top: 135px;
+}
+
+.href-btn a {
+    text-decoration: none;
+    list-style: none;
+    color: #828491;
+    margin-bottom: 10px;
+}
+
+.href-btns a {
+    text-decoration: none;
+    list-style: none;
+    color: #828491;
+    margin-bottom: 10px;
+}
+
+.h2-offset {
+    color: #828491;
+    font-size: 18px;
+}
+
+.p-offset {
+    color: #20D24A;
+}
+
+.button-footer {
+    background-color: #020523;
+    width: 100%;
+}
+
+.ul ul {
+    list-style: none;
+    text-align: center;
+}
+
+.ul ul li a {
+    color: #20D24A;
+    text-decoration: none;
+}
+
+.ul ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.h6 {
+    color: #ffffff62;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-brand img {
+        position: absolute;
+        top: -53px;
+        left: 57px;
+    }
+    .left {
+        background-color: red;
+        height: 53px;
+        width: 46%;
+        padding-top: 10px;
+        margin-left: 58%;
+    }
+    .top-nav {
+        background-color: #283290;
+        height: 53px;
+        width: 1120px;
+    }
+    .Our_team {
+        background-image: url(../images/departments.jpg);
+        width: 1119px;
+        /* height: 100vh; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        height: 50%;
+    }
+    .cards {
+        border: none;
+        width: 300px;
+        perspective: 1000px;
+        cursor: pointer;
+        padding-left: 33%;
+        /* margin-right: 18px; */
+    }
+    .Need {
+        background-image: url(../images/cta.jpg);
+        width: 1120px;
+        /* height: 100vh; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        height: 50%;
+    }
+    footer {
+        background-color: #060B3A;
+        width: 1108px;
+    }
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand img {
+        position: absolute;
+        top: -53px;
+        left: 29px;
+    }
+    .Our_team {
+        background-image: url(../images/departments.jpg);
+        width: 100%;
+        /* height: 100vh; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        /* height: 50%; */
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-brand img {
+        position: absolute;
+        top: -53px;
+        left: 0px;
+        width: 28%;
+    }
+
+    .top-nav {
+        background-color: #283290;
+        height: 55px;
+        width: 500px;
+    }
+
+    .background {
+        background-image: url(../images/home_background_1.jpg);
+        width: 500px;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: solid 2px #20D24A;
+    }
+
+    .Our_team {
+        background-image: url(../images/departments.jpg);
+        width: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1358px;
+        background-size: cover;
+    }
+    .cards {
+        border: none;
+        width: 300px;
+        perspective: 1000px;
+        cursor: pointer;
+        padding-left: 33%;
+        /* margin-right: 18px; */
+        margin-bottom: 10px;
+    }
+    .button-back-body a {
+        text-decoration: none;
+        position: absolute;
+        width: 133px;
+        right: 0;
+        top: 85%;
+        left: 0;
+        color: black;
+        background-color: white;
+        padding: 10px 22px;
+        margin-left: 7px;
+        border-bottom: solid 4px #20D24A;
+        /* margin-bottom: 26px; */
+    }
+
+    .Need {
+        background-image: url(../images/cta.jpg);
+        width: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    footer {
+        background-color: #060B3A;
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 325px) {}
